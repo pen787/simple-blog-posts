@@ -7,7 +7,7 @@
 	Blog posts
 </h1>
 <a href="/create_blog">
-	create new blog!
+	Create new blog
 </a>
 <ol>
 	{#each data.posts as post, i}
@@ -19,6 +19,8 @@
 					{post.date}
 					<br>
 					by : {post.author}
+					<br>
+					created user id : {post.user}
 				</code>
 			</div>
 		</li>

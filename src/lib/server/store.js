@@ -1,6 +1,7 @@
 import { faker } from "@faker-js/faker";
 
 let database = new Map()
+export let adminDatabase = new Map()
 
 /**
  * @param {{ topic: string; author: string; user: string; content: string; date: Date; }} data

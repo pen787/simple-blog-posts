@@ -16,10 +16,10 @@
 <h1>
 	{data.post.topic}
 </h1>
-<h4>
+<code>
 	{data.post.date}
 	<br>
 	by {data.post.author}
-</h4>
+</code>
 
-<p>{data.post.content}</p>
+<p>{@html data.post.content}</p>

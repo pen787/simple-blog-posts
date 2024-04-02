@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to some blog website</h1>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem iure porro, quae accusantium dolor totam
+veniam nemo. Corporis, molestias. Ducimus ab iure vero repellat recusandae quis suscipit iusto, veritatis
+modi?

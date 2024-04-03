@@ -5,11 +5,11 @@
 
 <form method="post" action="?/create">
 	<label>
-		topic :
+		หัวข้อ :
 		<input name="topic" autocomplete="off" required/>
 	</label>
 	<label>
-		author :
+		ผู้เขียน :
 		<input name="author" autocomplete="on" required/>
 	</label>
 	<br />

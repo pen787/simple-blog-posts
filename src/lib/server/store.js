@@ -1,4 +1,4 @@
-import { faker } from "@faker-js/faker";
+import { faker, fakerTH } from "@faker-js/faker";
 
 let database = new Map()
 export let adminDatabase = new Map()
@@ -47,10 +47,10 @@ export function getAllPost() {
 
 for (let i = 0; i < 10; i++) {
 	createNewPost({
-		topic: faker.lorem.lines(1),
-		author: faker.person.fullName(),
-		content: faker.lorem.paragraphs(4),
-		user: crypto.randomUUID(),
+		topic: fakerTH.lorem.lines(1),
+		author: fakerTH.person.fullName(),
+		content: fakerTH.lorem.paragraphs(4),
+		user: faker.string.uuid(),
 		date: faker.date.anytime(),
 	})
 }

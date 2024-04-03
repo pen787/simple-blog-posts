@@ -6,7 +6,7 @@
 {#if data.isyouownpost}
 <form method="post" action="?/delete">
 	<label>
-		Delete post :
+		ลบโพสต์ :
 		<input type="submit" value="Submit">
 	</label>
 </form>
